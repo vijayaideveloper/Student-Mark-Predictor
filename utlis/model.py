@@ -4,12 +4,11 @@ from sklearn.preprocessing import PolynomialFeatures
 import os
 
 
-print(os.getcwd())
 
 loaded_model = joblib.load('models/student_mark_model.pkl')
 
 
-def Prediction(user_input):
+def Prediction(user_input=1):
     try:
         x_user_input_value = float(user_input)
 

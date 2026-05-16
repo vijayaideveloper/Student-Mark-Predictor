@@ -3,3 +3,4 @@ numpy
 python3.12.3
 scikit-learn1.8.0
 joblib
+customtkinter
